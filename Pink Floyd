@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+
+<head>
+
+  <title>Pink Floyd</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/b5e8d43daf.js" crossorigin="anonymous"></script>
+  <meta name="description" content="Este site é dedicado à lendária banda Pink Floyd. Veja aqui quem são e a sua história.">
+  <meta name="author" content="Diogo Sousa">
+  <meta name="keywords" content="Pink Floyd, Banda Pink Floyd, Roger Waters, Nick Mason, Sid Barrett, David Gilmour, Richard Wright">
+
+  <style>
+
+    /*Definições Gerais */
+
+      @font-face {
+          font-family: "floydian";
+          src: url(CSS/floydian.TTF);
+      }
+
+      @font-face {
+        font-family: "specialElite";
+        src: url(CSS/SpecialElite-Regular.ttf);
+      }
+
+      body {
+        background-color: black;
+      }
+
+      /* Visualização Dispositivos Móveis */
+
+      @media (max-width: 992px) {
+        .navbar-toggler-icon {
+          width: 80px;
+          background-image: url(images/logo3.jpg);
+      }
+      }
+
+      /* Navbar */
+
+      .navbar a, button , form {
+        font-family: 'floydian';
+          font-size: x-large;
+      }
+
+      #div1 {
+          background-image: url("fundo1.jpg");
+      }
+
+      #divnav {
+          background-image: url("fundo1.jpg");
+          background-repeat: no-repeat;
+      }
+
+      .navbar .nav-item {
+        padding-left: 30px;
+      }
+
+      #dropopt1, #dropopt2 {
+        border-bottom: 1px solid red;
+      }
+
+      .dropdown-menu {
+        margin-left: 30px
+      }
+
+      nav .form-control {
+        border: 1px solid #198754;
+      }
+
+      /* Div Apresentação */
+
+      .tits {
+        font-family: 'floydian', 'Courier New';
+        color: red;
+        font-size: 55px;
+        text-align: center;
+      }
+
+      #divdesc1 {
+        padding-top: 30px;
+      }
+
+      #divdesc {
+        padding-top: 60px;
+      }
+
+      .txt {
+        font-family: 'specialElite';
+        color: white;
+        font-size: large;
+      }
+
+      #img2 {
+        width: 1200px;
+        height: auto;
+      }
+
+      #exptxt {
+        font-family: "specialelite";
+        color: white;
+        font-size: large;
+        padding-top: 30px;
+      }
+
+      .card-body h4 {
+        font-family: 'specialElite';
+      }
+
+      /* Discrografia */
+
+      #discos {
+        padding-top: 100px;
+      }
+
+      .dropdown-toggle::after {
+        margin-left: -15px;
+      }
+
+      .card {
+        background-color: black;
+        color: white;
+        padding-top: 50px;
+        text-align: center;
+      }
+
+      .card-text {
+        text-align: center;
+        font-family: 'specialElite';
+        font-size: large;
+      }
+
+      .card img {
+        width: 250px;
+        height: auto;
+      }
+
+      #divtours {
+        padding-top: 80px;
+      }
+
+      #accordionFlushExample {
+        padding-top: 50px;
+      }
+
+      .btn {
+        font-family: 'floydian';
+        color: white;
+      }
+
+      /*Tours */
+
+      .accordion-body {
+        font-family: 'specialElite';
+      }
+
+      .accordion-item {
+        border: 1px solid white !important;
+      }
+
+      /* Contactos */
+
+      #contact {
+        text-align: center;
+        font-family: 'specialElite';
+        color: white;
+      }
+
+      .col-sm-6 p {
+        color: white;
+        font-family: 'specialElite';
+      }
+
+      #divopcoescontacto {
+        padding-top: 50px;
+        text-align: center;
+      }
+
+      #comentariocontacto {
+        text-align: center;
+        color: red;
+        font-family: 'specialElite';
+      }
+
+      #logos {
+        text-align: center;
+        padding-top: 30px;
+      }
+
+      #divcontactos1 {
+        padding-top: 80px;
+      }
+
+      form {
+        color: white;
+      }
+
+      .input1 {
+        max-width: 50%;
+      }
+
+      #comment1 {
+        display: none;
+        padding-top: 20px;
+      }
+
+      .trodis {
+        display: block !important;
+      }
+
+      #divcontactos1 {
+        text-align: center;
+      }
+
+      .feedbacktxt {
+        color:white;
+      }
+
+      .form-label {
+        color: white;
+        font-family: 'specialElite';
+      }
+
+      #comment1 {
+        text-align: center;
+      }
+
+      #comment1 .form-control {
+        display: block;
+        margin: 0 auto;
+        width: 90%; 
+      }
+
+      input, textarea {
+        font-family: 'specialElite';
+      }
+
+      #call {
+        font-family: 'floydian';
+        color: red;
+      }
+
+      #loc {
+        color: red;
+      }
+
+      #number {
+        color: green;
+      }
+
+      #meuBotao {
+        color: red;
+        background-color: black;
+        border: 1px solid red;
+      }
+
+       .form-label {
+        font-family: 'floydian';
+      }
+
+      .form-control {
+        font-family: 'specialElite';
+      }
+
+  </style>
+
+</head>
+
+<body> 
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-sm-12">
+
+          <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+            <div class="container-fluid">
+              <img src="images/imglogonav.jpg" alt="Logo Pink Floyd"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-danger" aria-current="page" href="abanda.html" target="_blank">A Banda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="discografia.html" target="_blank">Discografia</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-success" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contactos
+                    </a>
+                    <ul class="dropdown-menu bg-dark data-bs-toggle=dropdown">
+                      <li><a class="dropdown-item text-primary" href="#" id="dropopt1">Facebook</a></li>
+                      <li><a class="dropdown-item text-danger" href="#" id="dropopt2">Instagram</a></li>
+                      <li><a class="dropdown-item text-success" href="#">E-mail</a></li>
+                    </ul>
+                  </li>
+                </ul> <br>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 bg-dark text-white" type="search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <img class="img-fluid" src="images/fundo1.jpg" alt="Diamond Pink Floyd">
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-sm-12 text-center" id="divdesc">
+
+          <p class="tits"> Quem são os Pink Floyd?</p>
+
+          <img class="img-fluid" src="images/imggroup.jpg" id="img2" alt="Banda Pink Floyd">
+
+        </div>
+        
+
+      </div>
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-sm-12 text-center" id="divdesc1">
+
+            <p class="txt">Os Pink Floyd foram uma banda britânica de rock progressivo formada em 1965, conhecida pela sua música experimental, letras filosóficas e espetáculos visuais inovadores. <br>
+              Com álbuns icónicos como The Dark Side of the Moon (1973) e The Wall (1979), marcaram gerações e influenciaram a história da música. <br>
+              A banda, constituída por Roger Waters, David Gilmour, Richard Wright e Nick Mason (e anteriormente por Syd Barrett), destacou-se pela fusão de rock psicadélico e conceitos profundos, 
+              tornando-se uma das mais influentes de sempre.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid" id="discos">
+
+      <div class="row d-flex justify-content-center">
+
+        <p class="tits">Melhores discos</p>
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/discodsm.jpg" class="card-img-top img-fluid" alt="Dark Side of the Moon">
+          <div class="card-body">
+            <h4 class="card-title text-danger">Dark Side of the Moon</h4>
+            <p class="card-text">The Dark Side of the Moon (1973) é um dos álbuns mais icónicos da história da música. 
+              Combina rock progressivo, experimentação sonora e letras profundas sobre temas como o tempo, a loucura e a mortalidade. 
+              Com faixas memoráveis como Time, Money e Us and Them, o álbum destaca-se pela sua coesão e inovação, incluindo batidas de coração, vozes faladas e efeitos sonoros únicos. 
+              O seu sucesso foi estrondoso, permanecendo anos nas tabelas de vendas.
+            </p>
+            <a href="#" class="btn btn-primary bg-dark">Saber Mais!</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/discotw.jpg" class="card-img-top img-fluid" alt="The Wall">
+          <div class="card-body">
+            <h4 class="card-title text-danger">The Wall</h4>
+            <p class="card-text">The Wall (1979) é um dos álbuns mais ambiciosos, combinando rock progressivo com uma narrativa profunda e teatral. 
+              Concebido principalmente por Roger Waters, conta a história de Pink, um músico traumatizado que constrói um muro metafórico para se isolar do mundo. 
+              Com clássicos como Another Brick in the Wall, Part 2, Comfortably Numb e Hey You, o álbum explora temas como solidão, opressão e alienação. 
+              O seu impacto foi imenso, dando origem a um filme e a espetáculos lendários.
+            </p>
+            <a href="#" class="btn btn-primary bg-dark">Saber Mais!</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/discowywh.jpg" class="card-img-top img-fluid" alt="Wish you were here">
+          <div class="card-body">
+            <h4 class="card-title text-danger">Wish you were here</h4>
+            <p class="card-text">Wish You Were Here (1975) é um dos álbuns mais emblemáticos dos Pink Floyd, explorando temas de ausência, alienação e a indústria musical. 
+              Inspirado na saída de Syd Barrett, ex-líder da banda, destaca-se pela épica Shine On You Crazy Diamond, uma homenagem ao músico. 
+              Outras faixas como Wish You Were Here e Welcome to the Machine reforçam a atmosfera melancólica e crítica do disco. 
+              Com um som envolvente e letras profundas, o álbum tornou-se um dos mais aclamados da banda.
+            </p>
+            <a href="#" class="btn btn-primary bg-dark">Saber Mais!</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/discoa.jpg" class="card-img-top img-fluid" alt="Animals">
+          <div class="card-body">
+            <h4 class="card-title text-danger">Animals</h4>
+            <p class="card-text">Animals (1977) é um dos álbuns mais críticos e politizados dos Pink Floyd, inspirado no livro A Quinta dos Animais de George Orwell. 
+              Dividindo a sociedade em três classes: Cães (executivos gananciosos), Porcos (líderes corruptos) e Ovelhas (massa manipulada). 
+              O álbum apresenta uma sonoridade mais agressiva e sombria. Faixas como Dogs, Pigs (Three Different Ones) e Sheep destacam-se pelas letras ácidas e longas passagens instrumentais sendo uma
+              crítica feroz ao sistema com uma identidade musical intensa.
+            </p>
+            <a href="#" class="btn btn-primary bg-dark">Saber Mais!</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/discotdb.JPG" class="card-img-top img-fluid" alt="The Divison Bell">
+          <div class="card-body">
+            <h4 class="card-title text-danger">The Divison Bell</h4>
+            <p class="card-text">The Division Bell (1994) é o último álbum de estúdio dos Pink Floyd com David Gilmour, Nick Mason e Richard Wright, marcado por uma atmosfera introspectiva e melancólica. 
+              O disco explora temas de comunicação e distanciamento, refletidos em faixas como High Hopes, Coming Back to Life e Keep Talking. 
+              Com solos emocionantes de Gilmour e arranjos atmosféricos, o álbum mantém a identidade progressiva da banda. 
+              Apesar de divisivo entre os fãs, The Division Bell foi um sucesso comercial e é lembrado como um dos capítulos finais da icónica carreira dos Pink Floyd.
+
+            </p>
+            <a href="#" class="btn btn-primary bg-dark">Saber Mais!</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid" id="divtours">
+
+      <div class="row">
+
+        <div class="col-sm-12">
+
+          <p class="tits">Tours</p>
+
+          <div class="tours">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  16 Fevereiro - Lublin Polónia
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body bg-dark text-white">Domingo, 16 Fevereiro -  Centro do Encontro de Culturas - 19:00 Horas - Valor Bilhete desde 38€ <input type="button" class="btn btn-warning" value="Reserve já!"><a href="#" target="_blank"></a></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-dark text-success" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    17 Fevereiro - Białystok, Polónia 
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body bg-dark text-white">Segunda-Feira, 17 Fevereiro - Opera i Filharmonia Podlaska Europejskie Centrum Szt - 19:00 Horas - Valor Bilhete desde 43€ <input type="button" class="btn btn-success" value="Reserve já!"><a href="#" target="_blank"></a>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-dark text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    7 Março - Bassano del Grappa, Itália
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body bg-dark text-white">Sexta-Feira, 7 Março - CMP Arena - 21:00 Horas - Valor Bilhete desde 33€ <input type="button" class="btn btn-primary" value="Reserve já!"><a href="#" target="_blank"></a>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+  <div class="footer">
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-sm-12" id="divcontactos1">
+
+          <p class="tits">Contactos</p> <br>
+
+          <p id="comentariocontacto">És fã da banda? Envia-nos um feedback!</p>
+
+          <button id="meuBotao" onclick="trocarIcone(), mostrarform()"><i id="icone" class="fas fa-arrow-down"></i></button>
+
+          <div id="comment1">
+
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nome:</label>
+              <input type="text" class="form-control bg-dark text-light input1" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email:</label>
+              <input type="email" class="form-control bg-dark text-light input1" id="exampleFormControlInput2" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Comentário:</label>
+              <textarea class="form-control bg-dark text-light" id="exampleFormControlTextarea1" rows="2"></textarea> <br>
+              <input class="btn btn-primary" type="submit" value="Enviar!">
+            </div>
+
+          </div>  
+
+        </div>
+
+      </div>
+
+      <div class="container-fluid" id="divopcoescontacto">
+
+        <div class="row">
+
+          <div class="col-sm-12" id="contact">
+
+            <p id="call">Visita-nos em:</p>
+
+            <p>Facebook <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a> </p>
+
+            <p>Instagram <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a></p>
+
+            <p>X <a href="" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></p> <br> <br>
+
+            <p><i class="fa-solid fa-location-dot" id="loc"></i> Braga, Portugal</p>
+
+            <p><i class="fa-solid fa-phone" id="number"></i> +123 456 789</p>
+
+            <p><a href="mailto:something@something.org"><i class="fa-solid fa-square-envelope"></i></a> E-mail:</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+
+    function mostrarform() {
+      let element = document.getElementById('comment1');
+      element.classList.toggle("trodis");
+    }
+
+    function trocarIcone() {
+    let icone = document.getElementById("icone");
+    icone.classList.toggle("fa-arrow-down");
+    icone.classList.toggle("fa-arrow-up");
+    }
+    
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+  crossorigin="anonymous"></script>
+
+</body>
+
+</html>
