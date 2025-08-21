@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+
+    <head>
+
+        <title>Dire Straits</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Este site é uma homenagem aos Dire Straits, a icónica banda de rock liderada por Mark Knopfler. 
+        Aqui, os fãs encontrarão uma rica coleção de informações como a história da banda e discografia completa. 
+        Descubra tudo sobre o legado e a influência duradoura dos Dire Straits no mundo da música.">
+        <meta name="locality" content="Braga, Portugal, Europa">
+        <meta name="category" content="Português, Portugal, Website Dire Straits">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Diogo Sousa">
+
+        <link rel="stylesheet" href="css/style.css" type="text/css">    
+
+        <script src="https://kit.fontawesome.com/b5e8d43daf.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+       <div class="header">
+
+            <div class="cabecalho">
+
+                <div class="logo">
+
+                    <img src="images/logo.jpg" id="logotipo" alt="Logo Dire Straits">
+
+                </div>
+
+                <div class="linkscabecalho">
+
+                <ul>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Músicas Inesquecíveis</a></li>
+                    <li><a href="">Álbuns</a></li>
+                    <li class="dropdown">
+                        <a href="">Tours</a>
+                        <div class="dropdown-menu">
+                            <a href="">Brothers in Arms</a>
+                            <a href="">On Every Street</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="elastico"> </div>
+
+                <div class="search">
+                    <a id="lupa" href="" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+
+                </div>
+
+            </div>
+
+       </div>
+
+        <div class="sobrept1">
+
+            <br> <br> <br>
+
+            <p class="p1">Dire Straits</p>
+
+            <a href="" target="_blank"><img id="imgsobre" src="images/imgsobre.jpg" alt="Imagem Dire Straits"></a>
+
+            <p id="legen1">Dire Straits</p>
+
+            <br> <br>
+
+            <p id="p2">Os Dire Straits foram uma icónica banda britânica de rock fundada em 1977 por Mark Knopfler, pelo seu irmão David Knopfler, por John Illsley e Pick Withers.
+
+        </div>
+
+        <div class="sobrept2">
+
+            <div class="MK">
+
+                <a href="" target="_blank"><img src="images/mk.jpg" alt="Imagem Mark Knopfler" id="img1"></a>
+
+                <p class="legenimgs">Mark Knopfler</p>
+
+            </div>
+
+            <div class="pt2p1">
+
+                <div>
+
+                   <p id="pt2p1p1">Conhecidos por um som que misturava rock com influências de blues e country, os Dire Straits destacaram-se pelo virtuosismo de Mark Knopfler na
+                guitarra e pelas suas composições narrativas. <br> <br> <br>
+                A banda conquistou fama mundial com hits como Sultans of Swing, que trouxe notoriedade logo no seu álbum de estreia, e, Brothers in Arms, que 
+                marcou os anos 80 com a sua produção inovadora e mensagens reflexivas. </p>
+
+                </div>
+
+            </div>
+
+        <div>
+
+            <a href="" target="_blank"><img src="images/banda.jpg" alt="Imagem Banda Dire Straits" id="img2"></a>
+
+            <p class="legenimgs1">Dire Straits</p>
+
+        </div>
+
+        <div class="pt2p2">
+
+            <a href="" target="_blank"><img src="images/banda2.jpg" id="banda2" alt="Dire Straits"></a>
+
+            <p class="legenimgs2">Dire Straits</p>
+
+        </div>
+
+        <div>
+
+            <p id="pt2p2p2">O auge da banda veio com o álbum Brothers in Arms (1985), que se tornou um dos mais vendidos da história e introduziu o som da guitarra elétrica em novas direções. 
+                A banda optava por uma abordagem musical sofisticada e detalhista, evitando o estilo mais glamoroso e chamativo de outros artistas da época. <br> <br> <br> Após várias mudanças de formação e 
+                uma carreira marcada por êxitos como Money for Nothing e Walk of Life, a banda encerrou as suas atividades em 1995. </p>
+            
+
+        </div>
+
+        <div>
+
+            <a href="" target="_blank"><img src="images/banda3.jpg" id="banda3" alt="Dire Straits"></a>
+
+            <p class="legenimgs3">Dire Straits</p>
+
+        </div>
+         
+    </div>
+
+        <div class="divmusicas">
+
+            <p class="p1">Músicas Inesquecíveis</p> <br>
+
+        </div>
+
+        <div>
+
+                <div class="txtmus">
+
+                    <p>As músicas dos Dire Straits transcendem gerações, combinando melodias cativantes, letras poéticas e o talento incomparável de Mark Knopfler na guitarra. 
+                        Cada faixa conta uma história única, transportando os ouvintes por cenários de amor, reflexão e crítica social. <br> <br> Abaixo, reviva os maiores êxitos desta lendária banda 
+                        e deixe-se envolver pela magia do seu som inconfundível.</p>
+
+                </div>
+
+        <div class="divimgmus">
+
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/sos.jpg" alt="Sultans of Swing" class="imgdivimgmus"></a>
+
+                <p id="lgdsos">Sultans of Swing</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/lw.jpg" alt="Lady Writer" class="imgdivimgmus"></a>
+
+                <p id="lgdlw">Lady Writer</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/rj.jpg" alt="Romeo and Juliet" class="imgdivimgmus"></a>
+
+                <p id="lgdrj">Romeo and Juliet</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/tol.jpg" alt="Tunnel of Love" class="imgdivimgmus"></a>
+
+                <p id="lgdtl">Tunnel of Love</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/pi.jpg" alt="Private Investigations" class="imgdivimgmus"></a>
+
+                <p id="lgdpi">Private Investigations</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/tbp.jpg" alt="Twisting by the Pool" class="imgdivimgmus"></a>
+
+                <p id="lgdtbp">Twisting by the Pool</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/log.jpg" alt="Love over Gold" class="imgdivimgmus"></a>
+
+                <p id="lgdlog">Love over Gold</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/sfa.jpg" alt="So far Away" class="imgdivimgmus"></a>
+
+                <p id="lgdsfa">So far Away</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/mfn.JPG" alt="Money for Nothing" class="imgdivimgmus"></a>
+
+                <p id="lgdmfn">Money for Nothing</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/bia.jpg" alt="Brothers in Arms" class="imgdivimgmus"></a>
+
+                <p id="lgdbia">Brothers in Arms</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/wol.jpg" alt="Walk of Life" class="imgdivimgmus"></a>
+
+                <p id="lgdwol">Walk of Life</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/ce.jpg" alt="Calling Elvis" class="imgdivimgmus"></a>
+
+                <p id="lgdce">Calling Elvis</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/hf.jpg" alt="Heavy Fuel" class="imgdivimgmus"></a>
+
+                <p id="lgdhf">Heavy Fuel</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/ohs.jpg" alt="On Every Street" class="imgdivimgmus"></a>
+
+                <p id="lgdoes">On Every Street</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/ylt.jpg" alt="Your Latest Trick" class="imgdivimgmus"></a>
+
+                <p id="lgdylt">Your Latest Trick</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/lh.jpg" alt="Local Hero" class="imgdivimgmus"></a>
+
+                <p id="lgdlh">Local Hero</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/letb.jpg" alt="Last Exit to Brooklyn" class="imgdivimgmus"></a>
+
+                <p id="lgdletb">Last Exit to Brooklyn</p>
+
+            </div>
+
+        </div>
+
+        <div class="albuns1">
+
+            <p id="p1albuns">Álbuns</p>
+
+            <p id="descalbuns">Entre os melhores álbuns, destaca-se "Brothers in Arms" (1985), um marco que inclui clássicos como "Money for Nothing" e "Walk of Life". 
+                Outro grande destaque é "Dire Straits" (1978), o álbum de estreia, com o inesquecível "Sultans of Swing". <br> <br> Por sua vez,  "Making Movies" (1980) combina emoção e lirismo em faixas como 
+                "Romeo and Juliet".
+                Cada álbum reflete a mestria de Knopfler na guitarra e uma produção que equilibra simplicidade e sofisticação.</p>
+    
+        </div>
+
+        <div class="albuns2">
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/brothersia.jpg" class="imgalbuns2" alt="Álbum Brothers in Arms"></a>
+
+            <p>Brothers in Arms 1985</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/dires.jpg" class="imgalbuns2" alt="Álbum Dire Straits"></a>
+
+                <p>Dire Straits 1978</p>
+
+            </div>
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/mankingm.jpg" class="imgalbuns2" alt="Álbum Making Movies"></a>
+                
+                <p>Making Movies 1980</p>
+
+            </div>
+
+        </div>
+
+        <div class="tours1">
+
+            <p id="p1tours">Tours</p>
+
+            <p id="p2tours"> As tours dos Dire Straits são recordadas como algumas das mais impressionantes da história do rock, combinando musicalidade excepcional, 
+                performances marcantes e uma ligação especial com o público.</p>
+
+        </div>
+
+        <div class="tours2">
+
+            <div>
+
+                <a href="" target="_blank"><img src="images/wembley.jpg" id="img1tours" alt="Tour Wembley"></a>
+
+                <p id="p1tours2">Wembley Arena</p>
+
+            </div>
+
+            <div>
+
+                <p class="p1tours4">Entre as mais memoráveis está a Brothers in Arms Tour (1985-1986), que seguiu o enorme sucesso do álbum com o mesmo nome. </p>
+
+                <p class="p1tours4">Com mais de 230 concertos em 100 cidades, a 
+                    digressão levou a banda a estádios lotados por todo o mundo, incluindo momentos icónicos no Wembley Arena e na Austrália, reforçando o estatuto global da banda.</p>
+            </div>
+
+            <div>
+                
+                <p class="p1tours5">Outra tour de destaque foi a On Every Street Tour (1991-1992), que promoveu o último álbum de estúdio dos Dire Straits.</p>    
+
+                <p class="p1tours5">Esta digressão foi ainda mais ambiciosa, com cerca de 120 concertos ao longo de 18 meses, atravessando Europa, América do Norte e outras regiões. 
+                    Esta última grande tour mostrou a evolução da banda e a energia única de Mark Knopfler, levando fãs a lotar arenas e estádios numa despedida gloriosa.</p>
+
+                    <p class="p1tours5">Cada uma destas digressões solidificou os Dire Straits como uma banda lendária ao vivo, com concertos que uniam técnica, emoção e uma produção de excelência.</p>
+                
+            </div>
+
+            <div id="divfinal">
+
+                <a href="" target="_blank"><img src="images/ones.jpg" id="img2tours" alt="Tour On Every Street"></a>
+
+                <p id="p1tours3">On Every Street</p>
+
+
+            </div>
+
+        </div>
+
+        <div id="footer">
+
+            <p id="p1footer">Gostou do nosso Website? Diga-nos o que achou. <a onclick="mostrarform()"><i class="fa-solid fa-pencil" id="lapis"></i></a> <br> Siga-nos para não perder nenhum conteúdo!</p> <br>
+
+            <div id="formdiv" class="aa">
+
+                <form id="formulario">
+
+                    <label id="formnametxt" class="descs">Nome:
+                    <input type="text" id="nome" name="nome"></label><br><br>
+            
+                    <label id="formemailtxt" class="descs">Email:
+                    <input type="email" id="email" name="email"></label><br><br>
+
+                    <label id="formcommenttxt" class="descs" >Comentário: <br>
+                    <textarea id="comentario1" name="comentario" rows="20" cols="50"></textarea></label> <br>
+            
+                    <input type="submit" id="enviar" class="bt" value="Enviar Comentário!" onclick="validar()">
+
+                </form>
+
+            </div>
+
+                <ul>
+                    <li><a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a></li> 
+                    <li><a href="mailto:1234@1234.com"><i class="fa-solid fa-envelope"></i></a></li>              
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <script> /* Mostrar Formulário */
+
+            function mostrarform() {
+                let element = document.getElementById('formdiv');
+                element.classList.toggle("trodis");
+            }
+        
+        </script>
+
+                
+
+    </body>
+
+</html>
+       
